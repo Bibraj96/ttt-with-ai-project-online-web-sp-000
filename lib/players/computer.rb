@@ -1,2 +1,2 @@
-module Computer
+module Computer < Player
 end
