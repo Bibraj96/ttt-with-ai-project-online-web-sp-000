@@ -5,4 +5,5 @@ class Board
   def reset!
     self.all.clear
   end
+  
 end
