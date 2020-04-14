@@ -7,5 +7,6 @@ class Board
   end
 
   def initialize
+    self.cells = Array.new(9, " ")
   end
 end
