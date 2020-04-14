@@ -27,7 +27,6 @@ class Game
         if @board.cells[combination[0]] == @board.cells[combination[1]] &&
           @board.cells[combination[1]] == @board.cells[combination[2]] &&
           @board.taken?(combination[0]+1)
-          #Need to +1, because #taken? rspec test is working off user_input range (1-9)
           return combination
         end
       end
