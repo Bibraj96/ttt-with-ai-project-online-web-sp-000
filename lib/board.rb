@@ -3,7 +3,7 @@ class Board
   @cells = []
 
   def reset!
-    self.clear
+    self.cells = Array.new(9, " ")
   end
-
+  
 end
