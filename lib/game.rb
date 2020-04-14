@@ -23,7 +23,7 @@ class Game
   end
 
   def won?
-    WIN_COMBINATIONS.each do |combination|   #[0,1,2] which is board range (0-8)
+    WIN_COMBINATIONS.each do |combination|
         if @board.cells[combination[0]] == @board.cells[combination[1]] &&
           @board.cells[combination[1]] == @board.cells[combination[2]] &&
           @board.taken?(combination[0]+1)
