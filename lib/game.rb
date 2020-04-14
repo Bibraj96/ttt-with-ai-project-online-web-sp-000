@@ -44,7 +44,7 @@ class Game
   def winner
     if won?
       combination = won?
-      @board.cells[combination[0]] # X or O
+      @board.cells[combination[0]]
     end
   end
 
