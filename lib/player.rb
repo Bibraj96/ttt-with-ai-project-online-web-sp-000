@@ -1,2 +1,5 @@
-class player
+class Player
+  def initialize
+
+  end
 end
