@@ -31,8 +31,8 @@ class Board
   end
 
   def taken?(position) #check board position
-  self.cells[position.to_i-1] == "X" || #board position -1 because of test using range 1-9 (user input numbers)
-  self.cells[position.to_i-1] == "O"
-end
+    self.cells[position.to_i-1] == "X" || #board position -1 because of test using range 1-9 (user input numbers)
+    self.cells[position.to_i-1] == "O"
+  end
 
 end
