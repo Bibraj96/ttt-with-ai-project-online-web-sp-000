@@ -48,4 +48,7 @@ class Game
     end
   end
 
+  def turn
+  end
+
 end
