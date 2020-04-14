@@ -5,5 +5,7 @@ class Board
   def reset!
     self.cells = Array.new(9, " ")
   end
-  
+
+  def initialize
+  end
 end
