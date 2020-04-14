@@ -9,4 +9,7 @@ class Board
   def initialize
     self.cells = Array.new(9, " ")
   end
+
+  def display
+  end
 end
