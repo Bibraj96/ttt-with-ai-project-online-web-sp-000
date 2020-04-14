@@ -3,7 +3,7 @@ class Board
   @cells = []
 
   def reset!
-    self.all.clear
+    self.clear
   end
 
 end
